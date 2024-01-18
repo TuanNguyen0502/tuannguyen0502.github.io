@@ -1,0 +1,102 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Comfortaa, Arial;
+}
+
+/* 
+1. Vi tri
+2. Kich thuoc (width, height)
+3. Mau sac
+4. Kieu dang (kieu chu, hinh tron, vuong,...)
+*/
+
+#main {
+
+}
+
+#header {
+    height: 46px;
+    background-color: #000;
+}
+
+#navigation {
+    display: inline-block;
+}
+
+#navigation li {
+    display: inline-block;
+    position: relative;
+}
+
+#navigation > li > a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#navigation li a {
+    text-decoration: none; /* Bo gach chan */
+    line-height: 46px; /* Can giua */
+    padding: 0 24px;
+    display: block;
+}
+
+#navigation .subNavigation {
+    display: none;
+    min-width: 160px;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#navigation .subNavigation li {
+    display: block;
+}
+
+#navigation .subNavigation a {
+    padding: 0 12px;
+    line-height: 38px;
+}
+
+#navigation > li:hover > a, #navigation .subNavigation li:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+#navigation li:hover .subNavigation {
+    display: block;
+}
+
+#header .searchButton {
+    float: right;
+    line-height: 46px;
+    padding: 0 21px;
+    cursor: pointer;
+}
+
+#header .searchButton:hover {
+    background-color: #f44336;
+    
+}
+
+#header .search-icon {
+    font-size: 20px;
+    color: #fff;
+}
+
+#slider {
+    
+}
+
+#content {
+
+}
+
+#footer {
+
+}
